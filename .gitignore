@@ -1,0 +1,16 @@
+/archetypes/
+/assets/
+/content/
+/data/
+/i18n/
+/layouts/
+/static/
+/themes/
+/spore-garden/
+/.hugo_cache/
+/resources/
+/.hugo_build.lock
+/hugo.toml
+
+.DS_Store
+Thumbs.db
