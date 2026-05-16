@@ -1,31 +1,44 @@
 # Project Spore Public Preview
 
-This repository is the public demo-only preview for Project Spore. It exists to keep the live GitHub Pages demo online without publishing the paid Hugo starter kit source.
+This repository contains the public preview build for Project Spore.
+
+It exists only to keep the live demo available through GitHub Pages without publishing the full paid Hugo starter kit source.
 
 ## What is included
 
-- The prebuilt `public/` site used for the live demo
-- A GitHub Actions workflow that deploys `public/` to GitHub Pages
-- Minimal repository metadata for the preview repo
+- The prebuilt static demo site
+- Static HTML, CSS, JavaScript, images, and generated pages used for the live preview
+- Minimal repository metadata for GitHub Pages deployment
 
 ## What is not included
 
-- The full Hugo starter project
-- Theme source, layouts, content source, and packaging files
+- The full editable Hugo starter project
+- Hugo source files such as `themes/`, `layouts/`, `content/`, `archetypes/`, and `hugo.toml`
+- Theme source, starter structure, packaging files, and private development files
 - Paid starter assets intended for Gumroad customers
 
 ## Full starter kit
 
-The complete Project Spore starter kit is available on Gumroad. This repository is only a public preview so people can view the generated demo site.
+The complete Project Spore starter kit is available on Gumroad.
+
+The paid package includes the editable Hugo starter project, bundled theme files, demo content, reusable helpers, documentation, and the source structure used to generate this preview.
+
+This repository is only a public demo so people can view the generated site before purchasing.
 
 ## Deployment
 
-GitHub Pages deploys directly from the committed `public/` directory in this repository. There is no Hugo build step in the public preview repo.
+GitHub Pages serves the committed static preview files in this repository.
+
+There is no Hugo build step in this public preview repo.
 
 ## Local source files
 
-You may still keep the paid/source files locally for private work, but this repo is configured to ignore them so they do not get committed to the public repository again.
+The paid/source files should stay in a private local folder or private repository.
+
+This public preview repository is configured to avoid committing Hugo source files or paid package files by accident.
 
 ## Credits
 
-Project Spore is built with [Hugo](https://gohugo.io/). The full commercial package contains the original source, templates, styling, and starter structure used to generate this preview.
+Project Spore is built with [Hugo](https://gohugo.io/).
+
+The full commercial package contains the original Hugo source, templates, styling, starter content, and structure used to generate this static preview.
